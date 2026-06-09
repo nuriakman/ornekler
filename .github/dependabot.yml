@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "composer"
+    directory: "/laravel/tabledit-jquery"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "composer"
+  - package-ecosystem: "npm"
+    directory: "/laravel/tabledit-jquery"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "npm"
